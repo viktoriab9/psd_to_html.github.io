@@ -130,7 +130,7 @@ header {
 .process-box {
   height: 260px;
   width: 260px;
-  margin-top: 110px;
+  margin-top: 100px;
   color: #ffffff;
   text-align: center;
   padding-top: 35px;
@@ -273,4 +273,52 @@ i.fa-camera-retro {
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
   border-radius: 50px;
+}
+/*Services section*/
+.services-list {
+  list-style: none;
+}
+.services-list-item {
+  display: block;
+  margin: 5px auto;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+.services-info h4 {
+  font-size: 50px;
+}
+.services-info p {
+  font-size: 16px;
+}
+.services-line {
+  width: 60px;
+  height: 3px;
+  background-color: #ff5c36;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.services-btn {
+  margin-top: 45px;
+  border: none;
+  height: 56px;
+  width: 200px;
+  -webkit-border-radius: 27px;
+  -moz-border-radius: 27px;
+  -ms-border-radius: 27px;
+  -o-border-radius: 27px;
+  border-radius: 27px;
+  box-shadow: 0px 11px 20px 0px rgba(20, 20, 21, 0.07);
+  color: #706b73;
+  background-color: #ffffff;
+  font-size: 16px;
+}
+.panel-title {
+  text-align: left;
+  color: #fa9a87;
+}
+.slaider .item img {
+  display: inline-block;
+  text-align: center;
 }
